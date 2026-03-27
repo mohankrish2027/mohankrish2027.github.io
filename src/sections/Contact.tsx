@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 import type { Variants } from 'framer-motion'
-import { Mail, Globe, MessageCircle, MessageSquare, Send } from 'lucide-react'
+import { Mail, MessageSquare, Send } from 'lucide-react'
 
 const fade: Variants = {
   hidden: { opacity: 0, y: 20 },
