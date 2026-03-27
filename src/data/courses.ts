@@ -187,7 +187,6 @@ export const courses = [
       {
         "title": "Review & Interview Preparation",
         "items": [
-          "Activities",
           "Review of all AWS core services",
           "Architecture recap",
           "EC2 deployment",
@@ -200,9 +199,7 @@ export const courses = [
           "Architecture design challenge",
           "Resume discussion",
           "Advanced AWS Training Program",
-          "Course Level: Intermediate → Advanced",
-          "Advanced Duration: 15 Days (11 training days + 4 interview/exam preparation days)",
-          "Advanced Modules"
+          "Intermediate → Advanced"
         ]
       },
       {
@@ -272,7 +269,6 @@ export const courses = [
       {
         "title": "Advanced Review & Interview Preparation",
         "items": [
-          "Activities",
           "Organizations",
           "Kinesis",
           "SageMaker",
@@ -284,11 +280,7 @@ export const courses = [
           "Practice exam",
           "Architecture case study",
           "Certification guidance",
-          "Total Course Duration",
-          "Course",
-          "Basic Course",
-          "Advanced Course",
-          "Total Program"
+          "Course"
         ]
       }
     ]
@@ -304,7 +296,7 @@ export const courses = [
     "overview": "Combines core AWS cloud skills with a full DevOps engineering track. Master CI/CD, Kubernetes on EKS, Terraform, and advanced monitoring to become a complete cloud DevOps professional.",
     "modules": [
       {
-        "title": "Cloud Foundations (2 Days)",
+        "title": "Cloud Foundations",
         "items": [
           "Introduction to Cloud Computing",
           "Cloud Deployment Models (Public, Private, Hybrid)",
@@ -319,7 +311,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Identity & Access Management (IAM) (2 Days)",
+        "title": "Identity & Access Management (IAM)",
         "items": [
           "IAM Users, Groups, Roles, Policies",
           "Multi-Factor Authentication (MFA)",
@@ -331,7 +323,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Linux Fundamentals (1 Day)",
+        "title": "Linux Fundamentals",
         "items": [
           "Linux OS Overview",
           "File System Navigation",
@@ -344,7 +336,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Compute Services (EC2) (2 Days)",
+        "title": "Compute Services (EC2)",
         "items": [
           "EC2 Architecture and Instance Types",
           "AMI Concepts",
@@ -357,7 +349,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Storage Services (S3) (2 Days)",
+        "title": "Storage Services (S3)",
         "items": [
           "Object Storage Concepts",
           "Buckets and Objects",
@@ -371,7 +363,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Networking Basics (1 Day)",
+        "title": "Networking Basics",
         "items": [
           "IP Addressing and Subnets",
           "Public vs Private Networks",
@@ -382,7 +374,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Private Cloud (VPC) (3 Days)",
+        "title": "Virtual Private Cloud (VPC)",
         "items": [
           "VPC Architecture",
           "Subnets, Route Tables, Internet & NAT Gateway",
@@ -394,7 +386,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Load Balancing (2 Days)",
+        "title": "Load Balancing",
         "items": [
           "ELB Concepts (ALB & NLB)",
           "Target Groups",
@@ -405,7 +397,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Auto Scaling (1 Day)",
+        "title": "Auto Scaling",
         "items": [
           "Auto Scaling Concepts",
           "Launch Templates and Policies",
@@ -415,7 +407,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Route 53 (DNS) (2 Days)",
+        "title": "Route 53 (DNS)",
         "items": [
           "Hosted Zones and Records",
           "Routing Policies",
@@ -426,7 +418,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Monitoring & Logging (3 Days)",
+        "title": "Monitoring & Logging",
         "items": [
           "CloudWatch: Metrics, Alarms, Dashboards",
           "CloudTrail: Logs & Auditing",
@@ -438,7 +430,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Database Services (RDS) (1 Day)",
+        "title": "Database Services (RDS)",
         "items": [
           "Managed Database Concepts",
           "Backup & Multi-AZ Deployment",
@@ -448,7 +440,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Web Application Security (WAF) (1 Day)",
+        "title": "Web Application Security (WAF)",
         "items": [
           "WAF Concepts",
           "Security Rules & Policies",
@@ -459,55 +451,55 @@ export const courses = [
         ]
       },
       {
-        "title": "CodeCommit (1 Day)",
+        "title": "CodeCommit",
         "items": [
           "Git Repositories, Branching Labs: Create repo, Push code Outcome: Source control in AWS"
         ]
       },
       {
-        "title": "CodeBuild (1 Day)",
+        "title": "CodeBuild",
         "items": [
           "Build Automation, CI concepts Labs: Create Build Project Outcome: Continuous Integration"
         ]
       },
       {
-        "title": "CodeDeploy (1 Day)",
+        "title": "CodeDeploy",
         "items": [
           "Deployment Automation Labs: Deploy Application Outcome: Continuous Deployment"
         ]
       },
       {
-        "title": "CodePipeline (2 Days)",
+        "title": "CodePipeline",
         "items": [
           "CI/CD Orchestration Labs: Create Full Pipeline Outcome: End-to-End CI/CD Workflow"
         ]
       },
       {
-        "title": "CloudFormation (2 Days)",
+        "title": "CloudFormation",
         "items": [
           "Infrastructure as Code Labs: Deploy Resources via Template Outcome: Automate Infrastructure"
         ]
       },
       {
-        "title": "Elastic Beanstalk (1 Day)",
+        "title": "Elastic Beanstalk",
         "items": [
           "PaaS Deployment Labs: Deploy App on Beanstalk Outcome: Simplified Application Deployment"
         ]
       },
       {
-        "title": "ECS/EKS (Containers) (2 Days)",
+        "title": "ECS/EKS (Containers)",
         "items": [
           "Container Deployment & Orchestration Labs: Deploy Docker/K8s Apps Outcome: Manage Containers"
         ]
       },
       {
-        "title": "Monitoring CI/CD Pipelines (1 Day)",
+        "title": "Monitoring CI/CD Pipelines",
         "items": [
           "CloudWatch & CloudTrail Labs: Create Pipeline Dashboards Outcome: Monitor pipelines efficiently"
         ]
       },
       {
-        "title": "DevOps Capstone Project (2 Days)",
+        "title": "DevOps Capstone Project",
         "items": [
           "Multi-Service CI/CD Scenario Labs: End-to-End Pipeline Implementation Outcome: Consolidated AWS DevOps skills"
         ]
@@ -525,7 +517,7 @@ export const courses = [
     "overview": "A comprehensive Microsoft Azure program covering compute, networking, storage, identity, and enterprise governance. Aligned with Microsoft certification paths for real-world enterprise roles.",
     "modules": [
       {
-        "title": "Cloud Foundations (2 Days)",
+        "title": "Cloud Foundations",
         "items": [
           "Introduction to cloud computing",
           "Cloud deployment models: public, private, hybrid",
@@ -541,7 +533,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Identity & Access Management (2 Days)",
+        "title": "Identity & Access Management",
         "items": [
           "Azure Active Directory",
           "Azure AD overview",
@@ -558,7 +550,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Linux Fundamentals (1 Day)",
+        "title": "Linux Fundamentals",
         "items": [
           "Linux OS overview",
           "File system and directory structure",
@@ -573,7 +565,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Compute Services (2 Days)",
+        "title": "Compute Services",
         "items": [
           "Azure Virtual Machines",
           "VM architecture and lifecycle",
@@ -589,7 +581,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Storage Services (2 Days)",
+        "title": "Storage Services",
         "items": [
           "Azure Blob Storage",
           "Object storage concepts",
@@ -607,7 +599,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Networking Basics (1 Day)",
+        "title": "Networking Basics",
         "items": [
           "Networking fundamentals",
           "IP addressing, subnets, CIDR",
@@ -619,7 +611,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Network (3 Days)",
+        "title": "Virtual Network",
         "items": [
           "Azure Virtual Network",
           "VNet architecture",
@@ -635,7 +627,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Load Balancing (2 Days)",
+        "title": "Load Balancing",
         "items": [
           "Azure Load Balancer / Azure Application Gateway",
           "Load balancing concepts",
@@ -649,7 +641,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Auto Scaling (1 Day)",
+        "title": "Auto Scaling",
         "items": [
           "Azure Virtual Machine Scale Sets",
           "Auto scaling concepts",
@@ -663,7 +655,7 @@ export const courses = [
         ]
       },
       {
-        "title": "DNS Management (2 Days)",
+        "title": "DNS Management",
         "items": [
           "Azure DNS",
           "DNS fundamentals",
@@ -677,7 +669,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Monitoring & Logging (3 Days)",
+        "title": "Monitoring & Logging",
         "items": [
           "s: Azure Monitor / Azure Activity Log",
           "Metrics, logs, and alerts",
@@ -691,7 +683,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Database Services (1 Day)",
+        "title": "Database Services",
         "items": [
           "Azure SQL Database",
           "Azure SQL architecture",
@@ -706,7 +698,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Web Application Security (1 Day)",
+        "title": "Web Application Security",
         "items": [
           "Azure Web Application Firewall",
           "WAF concepts",
@@ -718,14 +710,13 @@ export const courses = [
         ]
       },
       {
-        "title": "Review & Interview Preparation (4 Days)",
+        "title": "Review & Interview Preparation",
         "items": [
-          "Advanced Azure Modules",
-          "15 Days (11 training + 4 review/interview)"
+          "Advanced Azure Modules"
         ]
       },
       {
-        "title": "Azure Files (2 Days)",
+        "title": "Azure Files",
         "items": [
           "Azure Files",
           "Introduction to Azure Files",
@@ -741,7 +732,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Azure Management & Governance (2 Days)",
+        "title": "Azure Management & Governance",
         "items": [
           "s: Azure Management Groups / Azure Policy",
           "Multi-subscription management",
@@ -757,7 +748,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Billing & Cost Management (1 Day)",
+        "title": "Billing & Cost Management",
         "items": [
           "Azure Cost Management",
           "Azure pricing models",
@@ -772,7 +763,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Machine Learning (2 Days)",
+        "title": "Machine Learning",
         "items": [
           "Azure Machine Learning",
           "ML lifecycle on Azure",
@@ -787,7 +778,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Real-Time Data Streaming (2 Days)",
+        "title": "Real-Time Data Streaming",
         "items": [
           "Azure Event Hubs",
           "Real-time streaming concepts",
@@ -802,7 +793,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Encryption & Key Management (1 Day)",
+        "title": "Encryption & Key Management",
         "items": [
           "Azure Key Vault",
           "Key Vault overview",
@@ -817,7 +808,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Content Delivery Network (1 Day)",
+        "title": "Content Delivery Network",
         "items": [
           "Azure CDN",
           "CDN introduction",
@@ -832,10 +823,8 @@ export const courses = [
         ]
       },
       {
-        "title": "Advanced Review & Interview Preparation (4 Days)",
+        "title": "Advanced Review & Interview Preparation",
         "items": [
-          "Total Program Duration",
-          "Course Section",
           "Beginner → Intermediate",
           "Advanced"
         ]
@@ -853,7 +842,7 @@ export const courses = [
     "overview": "Full-stack Azure + DevOps program combining AKS, Azure DevOps pipelines, Terraform, Helm, and enterprise-grade monitoring to prepare you for senior DevOps Engineer roles.",
     "modules": [
       {
-        "title": "Cloud Foundations (2 Days)",
+        "title": "Cloud Foundations",
         "items": [
           "Introduction to Cloud Computing",
           "Deployment Models: Public, Private, Hybrid",
@@ -868,7 +857,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Identity & Access Management (Azure AD) (2 Days)",
+        "title": "Identity & Access Management (Azure AD)",
         "items": [
           "Users, Groups, Roles, Policies",
           "Role-Based Access Control (RBAC)",
@@ -881,7 +870,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Linux Fundamentals (1 Day)",
+        "title": "Linux Fundamentals",
         "items": [
           "Linux OS Basics",
           "Command-Line Navigation",
@@ -894,7 +883,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Machines (2 Days)",
+        "title": "Virtual Machines",
         "items": [
           "VM Types and Sizes",
           "OS Images and Custom Images",
@@ -907,7 +896,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Storage Accounts & Blob (2 Days)",
+        "title": "Storage Accounts & Blob",
         "items": [
           "Storage Account Types (Blob, File, Table, Queue)",
           "Storage Tiers & Lifecycle Management",
@@ -919,7 +908,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Networking Basics (1 Day)",
+        "title": "Networking Basics",
         "items": [
           "IP Addressing & Subnets",
           "Public vs Private Networks",
@@ -930,7 +919,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Network (VNet) (3 Days)",
+        "title": "Virtual Network (VNet)",
         "items": [
           "VNet Architecture",
           "Subnets, Route Tables, NSGs",
@@ -943,7 +932,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Load Balancer (2 Days)",
+        "title": "Load Balancer",
         "items": [
           "Azure Load Balancer & Application Gateway",
           "Backend Pools, Health Probes",
@@ -955,7 +944,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Auto Scaling (1 Day)",
+        "title": "Auto Scaling",
         "items": [
           "Virtual Machine Scale Sets",
           "Scaling Policies & Metrics",
@@ -965,7 +954,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Azure DNS (2 Days)",
+        "title": "Azure DNS",
         "items": [
           "DNS Fundamentals",
           "Zones, Records, Alias & CNAME",
@@ -976,7 +965,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Monitoring & Logging (3 Days)",
+        "title": "Monitoring & Logging",
         "items": [
           "Azure Monitor, Log Analytics, Application Insights",
           "Metrics, Alerts, Dashboards",
@@ -988,7 +977,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Azure SQL Database (1 Day)",
+        "title": "Azure SQL Database",
         "items": [
           "Managed Relational Database Service",
           "Backup & Restore",
@@ -1000,7 +989,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Web Application Firewall (WAF) (1 Day)",
+        "title": "Web Application Firewall (WAF)",
         "items": [
           "Azure WAF Concepts",
           "Security Rules & Policies",
@@ -1023,7 +1012,7 @@ export const courses = [
     "overview": "Deep-dive into Google Cloud Platform covering cloud-native architecture, GKE, BigQuery, and Google's AI/ML services. Aligned with Google Cloud certification tracks.",
     "modules": [
       {
-        "title": "Cloud Foundations (2 Days)",
+        "title": "Cloud Foundations",
         "items": [
           "Introduction to cloud computing",
           "Cloud deployment models: Public, Private, Hybrid",
@@ -1039,7 +1028,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Identity & Access Management (2 Days)",
+        "title": "Identity & Access Management",
         "items": [
           "Google Cloud IAM",
           "IAM overview",
@@ -1055,7 +1044,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Linux Fundamentals (1 Day)",
+        "title": "Linux Fundamentals",
         "items": [
           "Linux OS overview",
           "File system and directory structure",
@@ -1070,7 +1059,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Compute Services (2 Days)",
+        "title": "Compute Services",
         "items": [
           "Google Compute Engine",
           "VM architecture and instance types",
@@ -1085,7 +1074,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Storage Services (2 Days)",
+        "title": "Storage Services",
         "items": [
           "Google Cloud Storage",
           "Object storage concepts",
@@ -1102,7 +1091,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Networking Basics (1 Day)",
+        "title": "Networking Basics",
         "items": [
           "IP addressing and subnets",
           "VPC networks overview",
@@ -1114,7 +1103,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Private Cloud (3 Days)",
+        "title": "Virtual Private Cloud",
         "items": [
           "Google VPC",
           "VPC architecture",
@@ -1129,7 +1118,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Load Balancing (2 Days)",
+        "title": "Load Balancing",
         "items": [
           "Google Cloud Load Balancing",
           "Load balancing concepts",
@@ -1142,7 +1131,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Auto Scaling (1 Day)",
+        "title": "Auto Scaling",
         "items": [
           "Instance Groups & Autoscaler",
           "Autoscaling concepts",
@@ -1156,7 +1145,7 @@ export const courses = [
         ]
       },
       {
-        "title": "DNS Management (2 Days)",
+        "title": "DNS Management",
         "items": [
           "Google Cloud DNS",
           "DNS fundamentals",
@@ -1169,7 +1158,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Monitoring & Logging (3 Days)",
+        "title": "Monitoring & Logging",
         "items": [
           "Google Cloud Monitoring / Google Cloud Logging",
           "Metrics, alerts, and logs",
@@ -1183,7 +1172,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Database Services (1 Day)",
+        "title": "Database Services",
         "items": [
           "Cloud SQL",
           "Cloud SQL overview",
@@ -1198,7 +1187,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Web Application Security (1 Day)",
+        "title": "Web Application Security",
         "items": [
           "Cloud Armor",
           "Cloud Armor overview",
@@ -1210,14 +1199,13 @@ export const courses = [
         ]
       },
       {
-        "title": "Review & Interview Preparation (4 Days)",
+        "title": "Review & Interview Preparation",
         "items": [
-          "Advanced GCP Modules",
-          "15 Days (11 training + 4 review/interview)"
+          "Advanced GCP Modules"
         ]
       },
       {
-        "title": "Filestore (Equivalent to AWS EFS) (2 Days)",
+        "title": "Filestore (Equivalent to AWS EFS)",
         "items": [
           "Google Filestore",
           "Filestore overview",
@@ -1231,7 +1219,7 @@ export const courses = [
         ]
       },
       {
-        "title": "GCP Organization & Resource Management (2 Days)",
+        "title": "GCP Organization & Resource Management",
         "items": [
           "Google Cloud Resource Manager",
           "Organization structure",
@@ -1246,7 +1234,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Billing & Cost Management (1 Day)",
+        "title": "Billing & Cost Management",
         "items": [
           "Google Cloud Billing",
           "GCP pricing overview",
@@ -1259,7 +1247,7 @@ export const courses = [
         ]
       },
       {
-        "title": "AI/ML on GCP (2 Days)",
+        "title": "AI/ML on GCP",
         "items": [
           "Vertex AI",
           "ML lifecycle on GCP",
@@ -1273,7 +1261,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Real-Time Streaming (2 Days)",
+        "title": "Real-Time Streaming",
         "items": [
           "Pub/Sub",
           "Event streaming concepts",
@@ -1287,7 +1275,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Encryption & Key Management (1 Day)",
+        "title": "Encryption & Key Management",
         "items": [
           "Cloud Key Management Service",
           "Key management concepts",
@@ -1301,7 +1289,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Content Delivery Network (1 Day)",
+        "title": "Content Delivery Network",
         "items": [
           "Cloud CDN",
           "CDN concepts",
@@ -1312,15 +1300,6 @@ export const courses = [
           "Connect storage/web app",
           "Test content delivery",
           "Improve application performance globally"
-        ]
-      },
-      {
-        "title": "Advanced Review & Interview Preparation (4 Days)",
-        "items": [
-          "Total Program Duration",
-          "Course Section",
-          "Core Modules (Beginner → Intermediate)",
-          "Advanced Modules"
         ]
       }
     ]
@@ -1336,7 +1315,7 @@ export const courses = [
     "overview": "Combines GCP fundamentals with advanced DevOps engineering on Google Cloud. Master GKE, Cloud Build, Terraform, and SRE practices for production-grade cloud systems.",
     "modules": [
       {
-        "title": "Cloud Foundations (2 Days)",
+        "title": "Cloud Foundations",
         "items": [
           "Introduction to Cloud Computing",
           "Cloud Deployment Models: Public, Private, Hybrid",
@@ -1351,7 +1330,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Identity & Access Management (IAM) (2 Days)",
+        "title": "Identity & Access Management (IAM)",
         "items": [
           "IAM Users, Groups, Roles, Policies",
           "Accounts",
@@ -1364,7 +1343,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Linux Fundamentals (1 Day)",
+        "title": "Linux Fundamentals",
         "items": [
           "Linux OS Basics",
           "Command-Line Navigation",
@@ -1377,7 +1356,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Compute Engine (2 Days)",
+        "title": "Compute Engine",
         "items": [
           "VM Types & Machine Families",
           "Custom Images & Boot Disks",
@@ -1391,7 +1370,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Cloud Storage (2 Days)",
+        "title": "Cloud Storage",
         "items": [
           "Object Storage Concepts",
           "Buckets, Objects, Storage Classes",
@@ -1404,7 +1383,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Networking Basics (1 Day)",
+        "title": "Networking Basics",
         "items": [
           "IP Addressing & Subnets",
           "Public vs Private Networks",
@@ -1415,7 +1394,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Private Cloud (VPC) (3 Days)",
+        "title": "Virtual Private Cloud (VPC)",
         "items": [
           "VPC Architecture",
           "Subnets, Route Tables, Firewall Rules",
@@ -1428,7 +1407,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Load Balancing (2 Days)",
+        "title": "Load Balancing",
         "items": [
           "HTTP(S), TCP/UDP Load Balancers",
           "Backend Services & Health Checks",
@@ -1440,7 +1419,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Autoscaling (1 Day)",
+        "title": "Autoscaling",
         "items": [
           "Instance Groups",
           "Scaling Policies",
@@ -1451,7 +1430,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Cloud DNS (2 Days)",
+        "title": "Cloud DNS",
         "items": [
           "DNS Concepts",
           "Managed Zones, Record Types",
@@ -1463,7 +1442,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Monitoring & Logging (3 Days)",
+        "title": "Monitoring & Logging",
         "items": [
           "Cloud Monitoring & Logging (Stackdriver)",
           "Metrics, Dashboards, Alerts",
@@ -1475,7 +1454,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Cloud SQL (1 Day)",
+        "title": "Cloud SQL",
         "items": [
           "Managed Relational Database Service",
           "High Availability & Backups",
@@ -1487,7 +1466,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Web Application Security (1 Day)",
+        "title": "Web Application Security",
         "items": [
           "Cloud Armor (WAF)",
           "Security Policies & Rules",
@@ -1510,7 +1489,7 @@ export const courses = [
     "overview": "Comprehensive Oracle Cloud Infrastructure training covering compute, storage, networking, databases, and OCI-native DevOps tooling for enterprise cloud professionals.",
     "modules": [
       {
-        "title": "Cloud Foundations (2 Days)",
+        "title": "Cloud Foundations",
         "items": [
           "Introduction to cloud computing",
           "Cloud deployment models: Public, Private, Hybrid",
@@ -1526,7 +1505,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Identity & Access Management (2 Days)",
+        "title": "Identity & Access Management",
         "items": [
           "OCI Identity and Access Management",
           "Users, groups, compartments",
@@ -1541,7 +1520,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Linux Fundamentals (1 Day)",
+        "title": "Linux Fundamentals",
         "items": [
           "Linux OS overview",
           "File system navigation and permissions",
@@ -1555,7 +1534,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Compute Services (2 Days)",
+        "title": "Compute Services",
         "items": [
           "OCI Compute",
           "Compute shapes and instances",
@@ -1569,7 +1548,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Storage Services (2 Days)",
+        "title": "Storage Services",
         "items": [
           "s: OCI Object Storage / OCI Block Storage",
           "Object storage overview",
@@ -1585,7 +1564,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Networking Basics (1 Day)",
+        "title": "Networking Basics",
         "items": [
           "OCI Virtual Cloud Network (VCN)",
           "IP addressing, CIDR",
@@ -1598,7 +1577,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Cloud Network (3 Days)",
+        "title": "Virtual Cloud Network",
         "items": [
           "OCI Virtual Cloud Network (VCN)",
           "VCN architecture",
@@ -1613,7 +1592,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Load Balancing (2 Days)",
+        "title": "Load Balancing",
         "items": [
           "OCI Load Balancer",
           "Load balancing concepts",
@@ -1628,7 +1607,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Auto Scaling (1 Day)",
+        "title": "Auto Scaling",
         "items": [
           "OCI Compute Autoscaling",
           "Autoscaling concepts",
@@ -1640,7 +1619,7 @@ export const courses = [
         ]
       },
       {
-        "title": "DNS Management (2 Days)",
+        "title": "DNS Management",
         "items": [
           "OCI DNS",
           "DNS fundamentals",
@@ -1653,7 +1632,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Monitoring & Logging (3 Days)",
+        "title": "Monitoring & Logging",
         "items": [
           "OCI Monitoring / OCI Logging",
           "Metrics and alarms",
@@ -1667,7 +1646,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Database Services (1 Day)",
+        "title": "Database Services",
         "items": [
           "OCI Autonomous Database",
           "Database types: Autonomous Transaction Processing (ATP), Autonomous Data Warehouse (ADW)",
@@ -1681,7 +1660,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Web Application Security (1 Day)",
+        "title": "Web Application Security",
         "items": [
           "OCI Web Application Firewall (WAF)",
           "WAF overview",
@@ -1693,14 +1672,13 @@ export const courses = [
         ]
       },
       {
-        "title": "Review & Interview Preparation (4 Days)",
+        "title": "Review & Interview Preparation",
         "items": [
-          "Advanced OCI Modules",
-          "15 Days (11 training + 4 review/interview)"
+          "Advanced OCI Modules"
         ]
       },
       {
-        "title": "File Storage (OCI File Storage Service) (2 Days)",
+        "title": "File Storage (OCI File Storage Service)",
         "items": [
           "OCI File Storage",
           "NFS-based file storage",
@@ -1713,7 +1691,7 @@ export const courses = [
         ]
       },
       {
-        "title": "OCI Management & Governance (2 Days)",
+        "title": "OCI Management & Governance",
         "items": [
           "OCI Resource Manager & Governance",
           "Compartment structure",
@@ -1727,7 +1705,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Billing & Cost Management (1 Day)",
+        "title": "Billing & Cost Management",
         "items": [
           "OCI Cost Analysis & Budgets",
           "OCI pricing and budgets",
@@ -1740,7 +1718,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Machine Learning (OCI Data Science) (2 Days)",
+        "title": "Machine Learning (OCI Data Science)",
         "items": [
           "OCI Data Science",
           "ML lifecycle in OCI",
@@ -1754,7 +1732,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Real-Time Data Streaming (OCI Streaming) (2 Days)",
+        "title": "Real-Time Data Streaming (OCI Streaming)",
         "items": [
           "OCI Streaming",
           "Event streaming concepts",
@@ -1767,7 +1745,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Encryption & Key Management (OCI Vault) (1 Day)",
+        "title": "Encryption & Key Management (OCI Vault)",
         "items": [
           "OCI Vault",
           "Key Vault overview",
@@ -1781,7 +1759,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Content Delivery Network (OCI CDN) (1 Day)",
+        "title": "Content Delivery Network (OCI CDN)",
         "items": [
           "OCI CDN",
           "CDN overview",
@@ -1792,15 +1770,6 @@ export const courses = [
           "Connect storage/web apps",
           "Test performance",
           "Optimize application performance globally"
-        ]
-      },
-      {
-        "title": "Advanced Review & Interview Preparation (4 Days)",
-        "items": [
-          "Total Program Duration",
-          "Course Section",
-          "Core Modules (Beginner → Intermediate)",
-          "Advanced Modules"
         ]
       }
     ]
@@ -1816,7 +1785,7 @@ export const courses = [
     "overview": "Full OCI + DevOps journey combining Oracle Cloud infrastructure with modern DevOps engineering — CI/CD pipelines, OKE, Terraform and OCI DevOps service.",
     "modules": [
       {
-        "title": "Cloud Foundations (2 Days)",
+        "title": "Cloud Foundations",
         "items": [
           "Introduction to Cloud Computing",
           "Cloud Deployment Models: Public, Private, Hybrid",
@@ -1831,7 +1800,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Identity & Access Management (IAM) (2 Days)",
+        "title": "Identity & Access Management (IAM)",
         "items": [
           "IAM Users, Groups, Policies, Roles",
           "Compartments & Resource Hierarchy",
@@ -1843,7 +1812,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Linux Fundamentals (1 Day)",
+        "title": "Linux Fundamentals",
         "items": [
           "Linux Command-Line Basics",
           "File System Navigation",
@@ -1856,7 +1825,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Compute (2 Days)",
+        "title": "Compute",
         "items": [
           "VM Shapes & Instances",
           "Custom Images & Boot Volumes",
@@ -1870,7 +1839,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Storage (Block & Object Storage) (2 Days)",
+        "title": "Storage (Block & Object Storage)",
         "items": [
           "Block Storage & Object Storage",
           "Storage Tiers, Versioning, Lifecycle Policies",
@@ -1883,7 +1852,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Networking Basics (1 Day)",
+        "title": "Networking Basics",
         "items": [
           "IP Addressing & Subnets",
           "Public vs Private Networks",
@@ -1894,7 +1863,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Virtual Cloud Network (VCN) (3 Days)",
+        "title": "Virtual Cloud Network (VCN)",
         "items": [
           "VCN Architecture",
           "Subnets, Route Tables, Security Lists, NSGs",
@@ -1907,7 +1876,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Load Balancer (2 Days)",
+        "title": "Load Balancer",
         "items": [
           "OCI Load Balancer Concepts",
           "Backend Sets, Health Checks",
@@ -1919,7 +1888,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Auto Scaling (1 Day)",
+        "title": "Auto Scaling",
         "items": [
           "Auto Scaling Configurations",
           "Scaling Policies & Metrics",
@@ -1930,7 +1899,7 @@ export const courses = [
         ]
       },
       {
-        "title": "DNS (2 Days)",
+        "title": "DNS",
         "items": [
           "OCI DNS Service",
           "Zones, Records, Routing Policies",
@@ -1942,7 +1911,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Monitoring & Logging (3 Days)",
+        "title": "Monitoring & Logging",
         "items": [
           "OCI Monitoring & Logging",
           "Metrics, Alarms, Dashboards",
@@ -1954,7 +1923,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Autonomous Database (1 Day)",
+        "title": "Autonomous Database",
         "items": [
           "Autonomous Transaction Processing & Data Warehouse",
           "Backup & Restore",
@@ -1966,7 +1935,7 @@ export const courses = [
         ]
       },
       {
-        "title": "Web Application Firewall (WAF) (1 Day)",
+        "title": "Web Application Firewall (WAF)",
         "items": [
           "OCI WAF Concepts",
           "Security Rules & Policies",

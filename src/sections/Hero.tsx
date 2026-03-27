@@ -57,9 +57,7 @@ export default function Hero() {
 
           {/* Role line */}
           <motion.p variants={fade} style={{ fontSize: 'clamp(16px, 2.5vw, 20px)', color: 'var(--muted)', maxWidth: 600, lineHeight: 1.7, marginBottom: 40 }}>
-            Cloud Engineer & Educator with <strong style={{ color: 'var(--text)' }}>10+ years</strong> of experience architecting
-            enterprise-grade cloud infrastructure across AWS, Azure, GCP & OCI.
-            Teaching professionals how to build, automate, and scale with confidence.
+            Multi-Cloud Architect, DevOps Automation Specialist, and Educator with <strong style={{ color: 'var(--text)' }}>10+ years</strong> of experience across AWS, Azure, GCP, and OCI-helping organizations and professionals build scalable, automated, and resilient cloud solutions.
           </motion.p>
 
           {/* Stats row */}

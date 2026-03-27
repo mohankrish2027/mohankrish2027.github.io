@@ -164,7 +164,7 @@ export default function Contact() {
             © 2026 Mohanakrishnan Thiyagarajan. All rights reserved.
           </span>
           <span style={{ fontSize: 12, color: 'var(--muted)' }}>
-            Cloud Engineer · Educator · Trainer
+            Cloud Architect · Educator · Trainer
           </span>
         </div>
       </div>
